@@ -22,18 +22,27 @@ Most image optimization plugins (like Smush or ShortPixel) use external SaaS ser
 
 ---
 
+## 📋 System Requirements
+To ensure high-performance processing, this plugin utilizes native server resources:
+* **PHP:** 7.4 or higher.
+* **PHP Extension:** `imagick` (ImageMagick) must be enabled on your server.
+* **WordPress:** 5.0 or higher.
+
+---
+
 ## 📈 Why Every Site Needs This
-1.  **Core Web Vitals (SEO):** Passing the "Serve images in next-gen formats" audit is a critical Google ranking factor.
-2.  **Server Health:** Reduces disk usage by up to 80%, making site backups faster and cheaper.
-3.  **User Experience (UX):** Optimized images load up to 3x faster, especially for mobile users on slow connections.
+1. **Core Web Vitals (SEO):** Passing the "Serve images in next-gen formats" audit is a critical Google ranking factor.
+2. **Server Health:** Reduces disk usage by up to 80%, making site backups faster and cheaper.
+3. **User Experience (UX):** Optimized images load up to 3x faster, especially for mobile users on slow connections.
 
 ---
 
 ## 🛠 Installation
-1. Download the latest release.
+1. Download the [latest release](https://github.com/iamsaddamhossen/sh-webp-optimizer/releases).
 2. Upload the `sh-webp-optimizer` folder to your `/wp-content/plugins/` directory.
 3. Activate the plugin via the WordPress Dashboard.
 4. Configure your quality and width settings in **Settings > Media**.
 
 ---
+
 **Developed by [Saddam Hossen](https://saddamhossen.dev)**
