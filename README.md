@@ -45,7 +45,6 @@ To ensure high-performance processing, this plugin utilizes native server resour
 
 ---
 
----
 
 ## ☕ Support This Project
 If this plugin saves you money on expensive image optimization subscriptions, consider supporting its development!
