@@ -45,4 +45,10 @@ To ensure high-performance processing, this plugin utilizes native server resour
 
 ---
 
-**Developed by [Saddam Hossen](https://saddamhossen.dev)**
+
+## ☕ Support This Project
+If this plugin saves you money on expensive image optimization subscriptions, consider supporting its development!
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/iamsaddamhossen)
+
+**Developed with ❤️ by [Saddam Hossen](https://saddamhossen.dev)**
