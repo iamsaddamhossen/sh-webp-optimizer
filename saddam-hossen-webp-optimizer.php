@@ -13,7 +13,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-// Fix: Class name must start with the plugin prefix
+// Class name must start with the plugin prefix
 if ( ! class_exists( 'SH_WebP_Saddam_Hossen_Optimizer' ) ) {
 
     class SH_WebP_Saddam_Hossen_Optimizer {
@@ -29,7 +29,7 @@ if ( ! class_exists( 'SH_WebP_Saddam_Hossen_Optimizer' ) ) {
         }
 
         public function sh_check_imagick_status() {
-            // Fix: Nonce verification for admin notices check
+            // Nonce verification for admin notices check
             if ( isset( $_GET['sh_converted'] ) ) {
                 if ( ! isset( $_GET['_wpnonce'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_GET['_wpnonce'] ) ), 'sh_convert_notice' ) ) {
                    // Optional: handle failed nonce
@@ -104,7 +104,7 @@ if ( ! class_exists( 'SH_WebP_Saddam_Hossen_Optimizer' ) ) {
                 $this->sh_core_convert_engine( $file_path, $attachment_id );
             }
 
-            // Fix: Use wp_safe_redirect instead of wp_redirect
+            // Use wp_safe_redirect instead of wp_redirect
             wp_safe_redirect( admin_url( 'upload.php?sh_converted=1' ) );
             exit;
         }
@@ -128,7 +128,7 @@ if ( ! class_exists( 'SH_WebP_Saddam_Hossen_Optimizer' ) ) {
                 $imagick->writeImage( $new_path );
 
                 if ( file_exists( $new_path ) && filesize( $new_path ) < filesize( $file_path ) ) {
-                    // Fix: Use wp_delete_file instead of unlink
+                    // Use wp_delete_file instead of unlink
                     wp_delete_file( $file_path ); 
                     update_attached_file( $attachment_id, $new_path );
                     
