@@ -39,7 +39,7 @@ To ensure high-performance processing, this plugin utilizes native server resour
 
 ## 🛠 Installation
 1. Download the [latest release](https://github.com/iamsaddamhossen/sh-webp-optimizer/releases).
-2. Upload the `sh-webp-optimizer` folder to your `/wp-content/plugins/` directory.
+2. Upload the `saddam-hossen-webp-optimizer` folder to your `/wp-content/plugins/` directory.
 3. Activate the plugin via the WordPress Dashboard.
 4. Configure your quality and width settings in **Settings > Media**.
 
